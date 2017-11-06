@@ -6,6 +6,7 @@ var hulk = {
         setTimeout(function () { return console.log(_this.nom + " smash!!!"); }, 1500);
     }
 };
+// forma antigua de hacerlo
 //setTimeout( function(){
 //console.log(this.nombre + " Smash!!"); // this apunta al objeto global (Pedro) cuando se ejecuta un Timeot dentro de un objeto
 //}, 1500)
